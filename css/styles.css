@@ -18,6 +18,9 @@ h6 {
 } */
 
 /* headings */
+#title {
+    z-index: 1;
+}
 
 .big-heading {
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +37,11 @@ h6 {
 
 /* containers */
 .container-fluid {
-    padding: 7% 15%;
+    padding: 9% 15%;
+}
+
+.container-fluid1 {
+    padding: 1% 1%;
 }
 
 /* sections */
@@ -70,6 +77,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     border-radius: 20px;
+    color: #000;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -124,7 +132,7 @@ h6 {
 }
 
 .feature-box {
-    padding: 5%;
+    padding: 4%;
 }
 
 
@@ -143,6 +151,8 @@ h6 {
 
 #testimonials {
     background-color: #ef8172;
+    padding: 10% 15%;
+
 }
 
 /* .testemonial-text {
@@ -157,6 +167,9 @@ h6 {
     margin: 20px;
 }
 
+#testimonials {
+    padding: 4% 0;
+}
 
 
 #press {
@@ -222,7 +235,8 @@ h6 {
 
 .about-img {
     border-radius: 360px;
-    width: 50%;
+    width: 80%;
+    padding: 2%;
 }
 
 p {
@@ -263,6 +277,10 @@ s {
         color: #fff;
         font-size: 2rem;
 
+    }
+
+    .about-img {
+        width: 100%;
     }
 
 }
