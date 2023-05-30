@@ -283,4 +283,17 @@ s {
         width: 100%;
     }
 
+    .container-fluid {
+        padding: 15% 2%;
+    }
+
+    .feature-title {
+        font-size: 2rem;
+    }
+
+    .p-features {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
 }
